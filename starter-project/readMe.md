@@ -1,15 +1,21 @@
 ## REST API Documentation
 
+### How to run the project 
+### Navigate to 
+``start-project directory after cloning the repository https://github.com/abertnamanya/ohs-backend-developer-exercise``
+
+Run`` mvn clean install``
+
+then ``mvn clean spring-boot:run``
 ##### Base Path ``http://localhost:8080``
 ### Authentication
 
 All endpoints are protected by HTTP Basic Authentication.
 
-Use these Credentials to login via PostMan or via endpoints request header ``
-Username: admin
-Password: @admin123
+Use these credentials via endpoint request headers to be able to access the endpoints
 
-``
+Basic Authorization``Username: admin
+Password: @admin123``
 
 ### API Endpoints
 
